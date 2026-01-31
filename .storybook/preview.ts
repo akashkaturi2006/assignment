@@ -17,5 +17,12 @@ const preview: Preview = {
     }
   },
 };
+export const parameters = {
+  options: {
+    storySort: {
+      order: ["Components", ["Button", "Card", "Input"]],
+    },
+  },
+};
 
 export default preview;
